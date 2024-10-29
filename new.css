@@ -1,7 +1,21 @@
-body {
-    font-family: 'Roboto', sans-serif;
+/* Reset CSS */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Base font size */
+}
+
+body {
+    line-height: 1.6; /* Improve readability */
+    font-family: 'Roboto', sans-serif; /* Set default font */
+}
+
+/* Main Styles */
+body {
     background-color: #212121; 
     color: #e0e0e0; 
 }
@@ -221,13 +235,15 @@ footer {
     .category-container,
     .card-container {
         flex-direction: column;
+        align-items: center; /* Center items for better visibility on small screens */
     }
 
     .category-card,
     .card {
-        width: 100%; 
+        width: 90%; /* Make cards responsive */
     }
 }
+
 body {
     font-size: 16px; 
 }
@@ -251,5 +267,4 @@ body {
         margin: 10px 0;
         width: 100%;    
     }
-    
 }
