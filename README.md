@@ -1,5 +1,1 @@
 # My Art Portfolio
-
-![GitHub stars](https://img.shields.io/github/stars/ChithaaMadanayake/AgentX?style=social)
-
-<img src="https://github.com/ChithaaMadanayake/ChithaaMadanayake/blob/main/your-demo.gif" width="400" />
